@@ -29,23 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.rTB1 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = ".";
             // 
             // label4
             // 
@@ -56,16 +45,6 @@
             this.label4.Size = new System.Drawing.Size(279, 29);
             this.label4.TabIndex = 6;
             this.label4.Text = "This Tool show a Class";
-            // 
-            // rTB1
-            // 
-            this.rTB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rTB1.Location = new System.Drawing.Point(29, 54);
-            this.rTB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.rTB1.Name = "rTB1";
-            this.rTB1.Size = new System.Drawing.Size(1418, 598);
-            this.rTB1.TabIndex = 7;
-            this.rTB1.Text = "";
             // 
             // label5
             // 
@@ -90,6 +69,16 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "(708)770-9895                                           sofgra2011@gmail.com";
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(25, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = ".";
+            // 
             // ListView1
             // 
             this.ListView1.HideSelection = false;
@@ -109,7 +98,6 @@
             this.Controls.Add(this.ListView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.rTB1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -123,12 +111,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox rTB1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListView ListView1;
     }
 }
