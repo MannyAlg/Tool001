@@ -38,15 +38,6 @@ namespace Tool001
             }
         }
 
-        //private void ListView1_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
-        //{
-        //    if (e.IsSelected)
-        //    {
-        //        string selectedFile = Path.Combine(@"D:\Old SSB 512G\Development_USA\Classes Folder", e.Item.Text);
-        //        MessageBox.Show($"Selected file: {selectedFile}");
-        //    }
-        //}
-
         private void ListView1_DoubleClick(object sender, EventArgs e)
         {
              if (ListView1.SelectedItems.Count > 0)
