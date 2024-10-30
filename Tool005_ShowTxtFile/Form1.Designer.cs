@@ -34,6 +34,7 @@
             this.rTB1 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.ListView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // label1
@@ -89,11 +90,23 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "(708)770-9895                                           sofgra2011@gmail.com";
             // 
+            // ListView1
+            // 
+            this.ListView1.HideSelection = false;
+            this.ListView1.Location = new System.Drawing.Point(47, 164);
+            this.ListView1.Name = "ListView1";
+            this.ListView1.Size = new System.Drawing.Size(1373, 459);
+            this.ListView1.TabIndex = 13;
+            this.ListView1.UseCompatibleStateImageBehavior = false;
+            this.ListView1.View = System.Windows.Forms.View.Details;
+            this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1459, 732);
+            this.Controls.Add(this.ListView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.rTB1);
@@ -103,6 +116,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "T00l001 Check two fields";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +129,7 @@
         private System.Windows.Forms.RichTextBox rTB1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-
+        private System.Windows.Forms.ListView ListView1;
     }
 }
 
